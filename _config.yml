@@ -135,12 +135,12 @@ content:
         link: https://github.com/Haki-Malai/Games/
         link_text: GitHub Repository
         additional_links:
-          - title: Netlify Demo Pac-Man Old
-            icon: fas fa-ghost
-            url: https://pacmanold.netlify.app/
           - title: Netlify Demo Tetris
             icon: fas fa-th-large
             url: https://tetris-hm.netlify.app/
+          - title: Netlify Demo Pac-Man Old
+            icon: fas fa-ghost
+            url: https://pacmanold.netlify.app/
           - title: Netlify Demo SudokuX
             icon: fas fa-th
             url: https://sudokux.netlify.app/
