@@ -68,7 +68,7 @@ content:
         quote: >
           This is a website for a very friendly pet shop based in Corfu, Potamos. 
         description: | # this will include new lines to allow paragraphs
-Except of what is visible to the customer, there also exists an admin page that gives access to the owner to update the website with new products, change the colors, add art, promote new products/sales and much more! The website is build with Flask and uses Jinja2 for the frontend. My goal for the future is to make it faster by making the website static instead of dynamic, with the price of having to wait a little more to be able to see any changes from the client view.
+          Except of what is visible to the customer, there also exists an admin page that gives access to the owner to update the website with new products, change the colors, add art, promote new products/sales and much more! The website is build with Flask and uses Jinja2 for the frontend. My goal for the future is to make it faster by making the website static instead of dynamic, with the price of having to wait a little more to be able to see any changes from the client view.
 
 # Footer
 footer_show_references: true
