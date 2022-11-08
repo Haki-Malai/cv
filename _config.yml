@@ -136,7 +136,7 @@ content:
         link_text: GitHub Repository
         additional_links:
           - title: Github page for project
-            icon: fa-solid fa-circle-three-quarters
+            icon: fab fa-circle-three-quarters
             url: https://github.com/Haki-Malai/pacman.js/
         description: |
           A unique variant of the classic Pac-Man with the goal of getting my first steps into JavaScript. The final product is quite impressive, having in mind there were no third party libraries involved, this was my first time I ever used HTML, CSS and JavaScript and most of the art was drawn by me!
