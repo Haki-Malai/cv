@@ -1,5 +1,6 @@
 # Site
 repository: Haki-Malai/cv
+url: hakimalai.com
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -52,7 +53,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Haki and I was born in Corinth, Greece. I have an innate love for computers and love exploring new technologies. Right now I am exploring the depths of the website world. To be more precise, I am mastering the languages of JavaScript and Python, from which I love using the open source libraries “Flask” and “React/React-Native”. I am also into cloud based deployment, traditional server deployments, docker containers, WSGI servers, server security, RESTful APIs, optimizing the software development cycle and more, you get the idea…
+  My name is Haki and I was born in Corinth, Greece. I have an innate love for computers and the exploration of new technologies. Right now I am exploring the depths of the website world. To be more precise, I am mastering the languages of JavaScript and Python, from which I love using the open source libraries “Flask” and “React/React-Native”. I am also into cloud based deployment, traditional server deployments, docker containers, WSGI servers, server security, RESTful APIs, optimizing the software development cycle and more, you get the idea…
   At the moment, I am finishing my thesis for my informatics degree in Ionian University that's about basically everything I like: a React-Native app that communicates with a gunicorn served API server and a lot more cool stuff!
 
 content:

@@ -4,3 +4,7 @@
 _site
 *.code-workspace
 vendor
+.gitignore
+.history
+node_modules
+venv
