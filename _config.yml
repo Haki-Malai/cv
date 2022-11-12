@@ -141,7 +141,7 @@ content:
             url: https://tetris-hm.netlify.app/
           - title: Netlify Demo Pac-Man Old
             icon: fas fa-ghost
-            url: https://pacmanold.netlify.app/
+            url: https://oldpacman.netlify.app/
           - title: Netlify Demo SudokuX
             icon: fas fa-th
             url: https://sudokux.netlify.app/
