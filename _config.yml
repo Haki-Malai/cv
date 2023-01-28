@@ -53,8 +53,46 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  As a full stack software developer, I have a strong passion for programming and a proven track record of success in the field. With 2 years of experience and a degree in informatics from Ionian University, I have a solid foundation in both the theoretical and practical aspects of software development. My expertise lies in Python and JavaScript, as well as frameworks like React and Flask. I am highly skilled in delivering high-quality code, and I am known for my attention to detail and ability to learn quickly. In addition to my technical skills, I am a team player with excellent communication and collaboration abilities. Whether working on a solo project or as part of a larger team, I am committed to delivering results that exceed expectations.
+  Highly skilled software engineer with a passion for building innovative and high performance applications. 
+  Proficient in agile development methodologies, continuous integration and deployment, and cloud computing. 
+  Very quick learner, excited about learning new technologies, and very competitive individual seeking a challenging and dynamic software development role where I can apply my technical
+  skills and leadership abilities to drive the success of a project.
+  
+  
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Freelancing-Volunteering
+        sub_title: Full-Stack Software Developer
+        caption: Sep 2021 - Nov 2022
+        description: | # this will include new lines to allow paragraphs
+            - Used popular freelancing platforms to find clients and served them with great success on tasks such as bug hunting, small automation solutions with Python, developing blocks on code and more.
+            - Helped small local businesses with tasks such as developing their e-shop, giving advice on their needs, recommending their deploying options and even providing IT services.
 
+      - layout: right
+        title: CONCISE TECHNOLOGIES LTD
+        sub_title: Full-Stack Software Developer
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+            - Created a variety of calculators using JavaScript, HTML5 and CSS with highly maintainable, solid code and beautiful UIs.
+            - Created a complete chat application utilizing React-Native, Flask, NoSQL, and websockets for the front-end and back-end development.
+            - Worked with software development and testing team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance.
+            - Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity.
+
+      - layout: right
+        title: REMWS
+        sub_title: Full-Stack Software Developer
+        caption: Sep 2021 - Nov 2022
+        description: |
+            - Rewrote and optimized poorly written code using techniques such as refactoring, debugging and testing.
+            - Used my DevOps skills to implement a continuous integration and continuous deployment (CI/CD) pipeline for React Native and .NET projects.
+            - Provided feedback and suggestions on code to improve productivity and efficiency on less skilled cooworkers.
+            - Assisted my team with debugging and troubleshooting issues to ensure smooth implementation of best practices.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
