@@ -93,7 +93,6 @@ content:
             - Used my DevOps skills to implement a continuous integration and continuous deployment (CI/CD) pipeline for React Native and .NET projects.
             - Provided feedback and suggestions on code to improve productivity and efficiency on less skilled cooworkers.
             - Assisted my team with debugging and troubleshooting issues to ensure smooth implementation of best practices.
-content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
