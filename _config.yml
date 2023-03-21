@@ -64,45 +64,73 @@ content:
     layout: list
     content:
       - layout: right
-        title: Freelancing-Volunteering
-        sub_title: Full-Stack Software Developer
-        caption: Sep 2021 - Nov 2022
-        description: | # this will include new lines to allow paragraphs
-            - Used popular freelancing platforms to find clients and served them with great success on tasks such as bug hunting, small automation solutions with Python, developing blocks on code and more.
-            - Helped small local businesses with tasks such as developing their e-shop, giving advice on their needs, recommending their deploying options and even providing IT services.
+        title: REMWS
+        sub_title: Full Stack Developer
+        caption: Oct 2022 - Present
+        description: |
+            - Develops new features to the mobile app by rewritting the existing .NET REST API using Python.
+            - Uses Apache Airflow ELT tool to synchronize the data of the ERP’s SQL Server database with the eshop’s MariaDB database.
+            - Improves code quality and performance by refactoring, debugging and testing existing codebase.
+            - Leads the development of a new mobile application, from requirements gathering to deployment using agile methodology using React Native.
+            - Conducts code reviews and implemented a code quality checklist to ensure that all code contributions meet the company's standards and guidelines.
+            - Optimizes database queries and improves application performance by identifying and addressing bottlenecks and inefficiencies.
+            - Creates and maintains technical documentation, including API specifications, user guides, and system architecture diagrams.
+            
 
       - layout: right
         title: CONCISE TECHNOLOGIES LTD
-        sub_title: Full-Stack Software Developer
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        sub_title: Full Stack Developer
+        caption: Sep 2021 - Sep 2022      
         description: | # this will include new lines to allow paragraphs
-            - Created a variety of calculators using JavaScript, HTML5 and CSS with highly maintainable, solid code and beautiful UIs.
-            - Created a complete chat application utilizing React-Native, Flask, NoSQL, and websockets for the front-end and back-end development.
-            - Worked with software development and testing team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance.
-            - Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity.
+            - Built several interactive and user-friendly advanced scientific calculators using modern web technologies such as JavaScript, HTML5, and CSS, focusing on writing maintainable, modular code and creating visually appealing UIs.
+            - Designed and implemented a complete chat application using a full-stack approach, combining React Native, Flask, NoSQL, and websockets technologies, to provide users with real-time messaging and collaboration features.
+            - Automated repetitive and manual tasks using scripting and tools (Python), saving significant time and effort for the team.
+            - Developed and maintained a variety of web applications and services, using technologies such as Node.js, MongoDB and React, to deliver intuitive, responsive and secure solutions to end-users.
 
       - layout: right
-        title: REMWS
-        sub_title: Full-Stack Software Developer
-        caption: Sep 2021 - Nov 2022
+        title: Freelancing-Volunteering
+        sub_title: Full Stack Developer
+        caption: May 2021 - Aug 2021
         description: |
-            - Rewrote and optimized poorly written code using techniques such as refactoring, debugging and testing.
-            - Used my DevOps skills to implement a continuous integration and continuous deployment (CI/CD) pipeline for React Native and .NET projects.
-            - Provided feedback and suggestions on code to improve productivity and efficiency on less skilled cooworkers.
-            - Assisted my team with debugging and troubleshooting issues to ensure smooth implementation of best practices.
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+            - Provided technical expertise and support to small local businesses, including developing e-commerce platforms, advising on technology needs and options, recommending deployment strategies, and offering IT services such as system setup and maintenance.
+            - Leveraged popular freelancing platforms, such as Upwork and Freelancer, to identify and secure clients, and delivered high-quality work on a variety of projects, including bug fixing, automation scripting with Python, and code module development.
+            - Contributed to open-source projects and communities, sharing knowledge and best practices, and participating in code reviews and discussions.
+            - Maintained effective communication channels with clients, providing regular progress updates, seeking feedback, and addressing any concerns or issues in a timely and professional manner.
+
+  - title: Projects
+    layout: list
     content:
+        
+      - layout: left
+        border: weak
+        title: TriviaMaster
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/flask-triviamaster
+        quote: >
+          
+        description: |
+          A trivia game in Python that uses SQLAlchemy for the database operations and includes automated scripts via API, shell operations and database migrations.       
+      
+      - layout: left
+        border: weak
+        title: digital-odyssey
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/digital-odyssey
+        quote: >      
+        description: |
+          A custom e-commerce shop inspired by opencart and based on the codebase of https://petshoppotamos.gr. The project includes a CMS and typical ecommerce features such as product catalog management, shopping cart functionality, and payment integration.
+          
       - layout: left
         border: weak
         title: Pet Shop
         link: https://petshoppotamos.gr
-        link_text: Heroku Deploy
+        link_text: nearlyfreespeech Deploy
         quote: >
-          This is a website for a very friendly pet shop based in Corfu, Potamos. 
+          This is a website for a friendly pet shop based in Corfu, Potamos. It's not available at the moment due to payment issues.
         description: | # this will include new lines to allow paragraphs
           Except of what is visible to the customer, there also exists an admin page that gives access to the owner to update the website with new products, change the colors, add art, promote new products/sales and much more! The website is build with Flask and uses Jinja2 for the frontend. My goal for the future is to make it faster by making the website static instead of dynamic, with the price of having to wait a little more to be able to see any changes from the client view.
         
