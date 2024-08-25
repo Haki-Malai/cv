@@ -11,9 +11,9 @@ name: Haki Malai
 title: Software Developer
 email: hakimalai@outlook.com
 #email_title: Work-Email (Email title override)
-phone: 6944873194
+phone: 6955065511
 # phone_title: Phone (Phone title override)
-#website: 
+#website:
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -53,54 +53,68 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Highly skilled software engineer with a passion for building innovative and high performance applications. 
-  Proficient in agile development methodologies, continuous integration and deployment, and cloud computing. 
+  Highly skilled software engineer with a passion for building innovative and high performance applications.
+  Proficient in agile development methodologies, continuous integration and deployment, and cloud computing.
   Very quick learner, excited about learning new technologies, and very competitive individual seeking a challenging and dynamic software development role where I can apply my technical
   skills and leadership abilities to drive the success of a project.
-  
-  
+
+
 content:
   - title: Experience
     layout: list
     content:
+      - layout: left
+        title: Hakra LTD
+        sub_title: Full Stack Developer
+        caption: May 2023 - Present
+        description: |
+            - Spearheads the redevelopment of the front-end for coinseats.com, enhancing SEO viability through advanced animations and design implementations based on designer templates, resulting in a 27% increase in organic traffic and a 14% boost in user engagement.
+            - Hires and manages external contractors and freelancers for tasks such as UI/UX design, logo design, and content creation, ensuring cohesive and high-quality project deliverables.
+            - Launched ticketparser.io, a comprehensive web application to facilitate event discovery and inventory synchronization from various third party sources, using Flask, React, and Docker to ensure scalability and maintainability. The platform reduced manual ticket parsing time by more than 90%
+            - Implemented robust system architectures including CI/CD pipelines via GitHub Actions, and managed deployment on AWS ECS and S3 for backend and front-end scalability, cutting deployment times by 50% and ensuring 99.9% uptime.
+            - Directs the development of section-mapper, an internal tool designed to aggregate and correlate data from multiple ticketing platforms using AI and NLP techniques for enhanced data accuracy and usability.
+            - Enhances and maintains the manual pricer tool by refactoring legacy code to adhere to PEP8 standards, simplifying algorithms, and integrating new features to optimize ticket pricing strategies and market control.
+            - Actively participates in daily standup meetings and followed Scrum methodology to ensure efficient project management and timely delivery of software milestones.
+            - Collaborates closely with cross-functional teams to align development activities with business objectives and user requirements, fostering an agile and responsive development environment.
+
       - layout: right
         title: REMWS
         sub_title: Full Stack Developer
-        caption: Oct 2022 - Present
+        caption: Oct. 2022 - May 2023
+        link: remws.gr
         description: |
-            - Develops new features to the mobile app by rewritting the existing .NET REST API using Python.
-            - Uses Apache Airflow ELT tool to synchronize the data of the ERP’s SQL Server database with the eshop’s MariaDB database.
-            - Improves code quality and performance by refactoring, debugging and testing existing codebase.
-            - Leads the development of a new mobile application, from requirements gathering to deployment using agile methodology using React Native.
-            - Conducts code reviews and implemented a code quality checklist to ensure that all code contributions meet the company's standards and guidelines.
-            - Optimizes database queries and improves application performance by identifying and addressing bottlenecks and inefficiencies.
-            - Creates and maintains technical documentation, including API specifications, user guides, and system architecture diagrams.
-            
+            - Developed new features to the mobile app by rewritting the existing .NET RESTful API using Python, resulting in a 30% reduction in API response time and enhancing overall app performance.
+            - Used Apache Airflow ELT tool to synchronize the data of the ERP’s SQL Server database with the eshop’s MariaDB database, improving data synchronization efficiency and reducing data inconsistencies by 31%.
+            - Improved code quality and performance by refactoring, debugging and testing existing codebase.
+            - Led the development of the new React Native mobile application, from requirements gathering to deployment using Agile methodology.
+            - Conducted code reviews and implemented a code quality checklist to ensure that all code contributions meet the company's standards and guidelines.
+            - Optimized database queries and improves application performance by identifying and addressing bottlenecks and inefficiencies, which led to a 28% increase in query execution speed and a 22% reduction in server load.
+            - Created and maintained technical documentation, including API specifications, user guides, and system architecture diagrams.
 
-      - layout: right
+      - layout: left
         title: CONCISE TECHNOLOGIES LTD
         sub_title: Full Stack Developer
-        caption: Sep 2021 - Sep 2022      
-        description: | # this will include new lines to allow paragraphs
+        caption: Sep. 2021 - Oct. 2022
+        description: |
             - Built several interactive and user-friendly advanced scientific calculators using modern web technologies such as JavaScript, HTML5, and CSS, focusing on writing maintainable, modular code and creating visually appealing UIs.
             - Designed and implemented a complete chat application using a full-stack approach, combining React Native, Flask, NoSQL, and websockets technologies, to provide users with real-time messaging and collaboration features.
             - Automated repetitive and manual tasks using scripting and tools (Python), saving significant time and effort for the team.
             - Developed and maintained a variety of web applications and services, using technologies such as Node.js, MongoDB and React, to deliver intuitive, responsive and secure solutions to end-users.
 
       - layout: right
-        title: Freelancing-Volunteering
+        title: Freelance
         sub_title: Full Stack Developer
-        caption: May 2021 - Aug 2021
+        caption: May 2021 - Sep. 2021
         description: |
             - Provided technical expertise and support to small local businesses, including developing e-commerce platforms, advising on technology needs and options, recommending deployment strategies, and offering IT services such as system setup and maintenance.
-            - Leveraged popular freelancing platforms, such as Upwork and Freelancer, to identify and secure clients, and delivered high-quality work on a variety of projects, including bug fixing, automation scripting with Python, and code module development.
+            - Leveraged popular freelancing platforms, such as Upwork and Freelancer, to identify and secure clients, and delivered high-quality work on a variety of projects, including bug fixing, automation scripting with Python, and code module development. Successfully completed over 90% of projects ahead of schedule, leading to a 20% increase in repeat business.
             - Contributed to open-source projects and communities, sharing knowledge and best practices, and participating in code reviews and discussions.
             - Maintained effective communication channels with clients, providing regular progress updates, seeking feedback, and addressing any concerns or issues in a timely and professional manner.
 
   - title: Projects
     layout: list
     content:
-        
+
       - layout: left
         border: weak
         title: TriviaMaster
@@ -109,10 +123,10 @@ content:
             icon: fab fa-github
             url: https://github.com/Haki-Malai/flask-triviamaster
         quote: >
-          
+
         description: |
-          A trivia game in Python that uses SQLAlchemy for the database operations and includes automated scripts via API, shell operations and database migrations.       
-      
+          A trivia game in Python that uses SQLAlchemy for the database operations and includes automated scripts via API, shell operations and database migrations.
+
       - layout: left
         border: weak
         title: digital-odyssey
@@ -120,10 +134,10 @@ content:
           - title:  Github page for project
             icon: fab fa-github
             url: https://github.com/Haki-Malai/digital-odyssey
-        quote: >      
+        quote: >
         description: |
           A custom e-commerce shop inspired by opencart and based on the codebase of https://petshoppotamos.gr. The project includes a CMS and typical ecommerce features such as product catalog management, shopping cart functionality, and payment integration.
-          
+
       - layout: left
         border: weak
         title: Pet Shop
@@ -133,7 +147,7 @@ content:
           This is a website for a friendly pet shop based in Corfu, Potamos. It's not available at the moment due to payment issues.
         description: | # this will include new lines to allow paragraphs
           Except of what is visible to the customer, there also exists an admin page that gives access to the owner to update the website with new products, change the colors, add art, promote new products/sales and much more! The website is build with Flask and uses Jinja2 for the frontend. My goal for the future is to make it faster by making the website static instead of dynamic, with the price of having to wait a little more to be able to see any changes from the client view.
-        
+
       - layout: left
         border: weak
         title: Arctic Fox
@@ -148,7 +162,7 @@ content:
         description: |
           An implementation that uses python's Flask web framework to create an OpenAPI and auto generate it's spec file and documentation page.
           Unittests, SAST, DAST and CI/CD tools were used for automated testing and locating security and error prone flaws.
-      
+
       - layout: left
         border: weak
         title: Arctic Fox UI
@@ -162,7 +176,7 @@ content:
           For demonstration puproses, the user input is sanitished throught the server.
         description: |
           A simple UI has also been developed with React-Native that means it's fully compatible with Android and iOS and ready to be deployed into an app with the same codebase.
-       
+
       - layout: left
         border: weak
         title: URL Shortener
@@ -215,10 +229,10 @@ content:
           A unique variant of the classic Pac-Man with the goal of getting my first steps into JavaScript. The final product is quite impressive, having in mind there were no third party libraries involved, this was my first time I ever used HTML, CSS and JavaScript and most of the art was drawn by me!
           After a while I decided to rebuild the project with a library called "Phaser" and the result was much smoother but I couldn't finish the project because of other duties.
           There are two demos, the old and the new versions, that can be tried in your browse and they are linked in the GitHub Repository!
-          
-        
-          
-          
+
+
+
+
 # Footer
 footer_show_references: false
 # references_title: References on request (Override references text)
