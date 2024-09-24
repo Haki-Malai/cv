@@ -88,7 +88,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Ionian University
         sub_title: BA in Informatics
         caption: 2017 - 2024
