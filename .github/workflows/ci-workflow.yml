@@ -26,9 +26,13 @@ jobs:
       run: |
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
+    - name: Print file contents
+      run: cat _config.yml
     - name: Replace GTM ID in configuration
       run: |
         sed -i 's/GTM_PLACEHOLDER/${{ secrets.GTM_ID }}/g' _config.yml
+    - name: Print file contents
+      run: cat _config.yml
     - name: Build test sites
       run: |
         bundle exec jekyll build --config _test/_config-version-1.yml --destination ./_test-site-1
