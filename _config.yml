@@ -1,7 +1,6 @@
 # Site
 repository: Haki-Malai/cv
 url: hakimalai.com
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
@@ -10,38 +9,20 @@ version: 2
 name: Haki Malai
 title: Software Developer
 email: hakimalai@outlook.com
-#email_title: Work-Email (Email title override)
 phone: 6955065511
-# phone_title: Phone (Phone title override)
-#website:
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-#twitter_username: jekyllrb
 github_username: Haki-Malai
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
 linkedin_username: haki-malai
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#orcid_username: 0000-0000-0000-0000
-#googlescholar_username: D847cGsAAAAJ
 
-# Additional icon links
+# Additional icon link
 additional_links:
   - title: Pdf Download
     icon: far fa-file-pdf
     url: https://github.com/Haki-Malai/cv/raw/master/pdf/haki-malai-resume.pdf
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -53,10 +34,11 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Highly skilled software engineer with a passion for building innovative and high performance applications.
-  Proficient in agile development methodologies, continuous integration and deployment, and cloud computing.
-  Very quick learner, excited about learning new technologies, and very competitive individual seeking a challenging and dynamic software development role where I can apply my technical
-  skills and leadership abilities to drive the success of a project.
+  Haki is a software engineer with a passion for problem-solving and continuous learning. 
+  Known for a curious and analytical mindset, he enjoys tackling challenges and finding innovative solutions, both in and out of work. 
+  He values collaboration and believes in the power of teamwork to achieve meaningful results. With a focus on personal growth,
+  he strives to bring creativity, dedication, and a positive attitude to every project and interaction.
+  Beyond his technical expertise, He finds balance in life through activities that stimulate both mind and body.
 
 
 content:
@@ -95,6 +77,7 @@ content:
         title: CONCISE TECHNOLOGIES LTD
         sub_title: Full Stack Developer
         caption: Sep. 2021 - Oct. 2022
+        link: www.concise.gr
         description: |
             - Built several interactive and user-friendly advanced scientific calculators using modern web technologies such as JavaScript, HTML5, and CSS, focusing on writing maintainable, modular code and creating visually appealing UIs.
             - Designed and implemented a complete chat application using a full-stack approach, combining React Native, Flask, NoSQL, and websockets technologies, to provide users with real-time messaging and collaboration features.
@@ -107,7 +90,7 @@ content:
         caption: May 2021 - Sep. 2021
         description: |
             - Provided technical expertise and support to small local businesses, including developing e-commerce platforms, advising on technology needs and options, recommending deployment strategies, and offering IT services such as system setup and maintenance.
-            - Leveraged popular freelancing platforms, such as Upwork and Freelancer, to identify and secure clients, and delivered high-quality work on a variety of projects, including bug fixing, automation scripting with Python, and code module development. Successfully completed over 90% of projects ahead of schedule, leading to a 20% increase in repeat business.
+            - Leverage popular freelancing platforms, such as Upwork and Freelancer, to identify and secure clients, and delivered high-quality work on a variety of projects, including bug fixing, automation scripting with Python, and code module development. Successfully completed over 90% of projects ahead of schedule, leading to a 20% increase in repeat business.
             - Contributed to open-source projects and communities, sharing knowledge and best practices, and participating in code reviews and discussions.
             - Maintained effective communication channels with clients, providing regular progress updates, seeking feedback, and addressing any concerns or issues in a timely and professional manner.
 
@@ -140,13 +123,13 @@ content:
 
       - layout: left
         border: weak
-        title: Pet Shop
+        title: Potamos Pet Shop
         link: https://petshoppotamos.gr
         link_text: nearlyfreespeech Deploy
         quote: >
-          This is a website for a friendly pet shop based in Corfu, Potamos. It's not available at the moment due to payment issues.
-        description: | # this will include new lines to allow paragraphs
-          Except of what is visible to the customer, there also exists an admin page that gives access to the owner to update the website with new products, change the colors, add art, promote new products/sales and much more! The website is build with Flask and uses Jinja2 for the frontend. My goal for the future is to make it faster by making the website static instead of dynamic, with the price of having to wait a little more to be able to see any changes from the client view.
+          The website is temporarily offline.
+        description: |
+          Except of what is visible to the customer, there also exists an admin page that gives access to the owner to update the website with new products, change the colors, add art, promote new products/sales and much more! The website is build with Flask and uses Jinja2 for the frontend. The goal for the future is to make it faster by making the website static instead of dynamic, with the price of having to wait a little more to be able to see any changes from the client view.
 
       - layout: left
         border: weak
@@ -158,7 +141,7 @@ content:
             icon: fab fa-github
             url: https://github.com/Haki-Malai/arctic-fox
         quote: >
-          This is a part of my ongoing thesis
+          This is a part of his thesis in the Ionian University.
         description: |
           An implementation that uses python's Flask web framework to create an OpenAPI and auto generate it's spec file and documentation page.
           Unittests, SAST, DAST and CI/CD tools were used for automated testing and locating security and error prone flaws.
@@ -189,7 +172,7 @@ content:
         quote: >
           Slow speeds as it uses heroku and firebase for free.
         description: |
-          This project had the aim of learning about deploying simple apps for free and to demonstrate my skill set. Of course, the speed is slow because Heroku puts free dynos on idle mode.
+          This project had the aim of learning about deploying simple apps for free and to demonstrate his skill set. Of course, the speed is slow because Heroku puts free dynos on idle mode.
           Node JS for the backend Heroku deployment.
           React JS for Netlify frontend demo.
           Firebase for storing the data.
@@ -204,7 +187,7 @@ content:
             icon: fab fa-github
             url: https://github.com/Haki-Malai/pacman.js/
         description: |
-          A unique variant of the classic Pac-Man with the goal of getting my first steps into JavaScript. The final product is quite impressive, having in mind there were no third party libraries involved, this was my first time I ever used HTML, CSS and JavaScript and most of the art was drawn by me!
+          A unique variant of the classic Pac-Man with the goal of getting his first steps into JavaScript. The final product is quite impressive, having in mind there were no third party libraries involved, this was Haki's first time I ever used HTML, CSS and JavaScript and most of the art was drawn by me!
           After a while I decided to rebuild the project with a library called "Phaser" and the result was much smoother but I couldn't finish the project because of other duties.
           There are two demos, the old and the new versions, that can be tried in your browse and they are linked in the GitHub Repository!
 
@@ -226,15 +209,27 @@ content:
           - title: Netlify Demo Hyper Sudoku
             icon: fas fa-th
         description: |
-          A unique variant of the classic Pac-Man with the goal of getting my first steps into JavaScript. The final product is quite impressive, having in mind there were no third party libraries involved, this was my first time I ever used HTML, CSS and JavaScript and most of the art was drawn by me!
+          A unique variant of the classic Pac-Man with the goal of getting his first steps into JavaScript. The final product is quite impressive, having in mind there were no third party libraries involved, this was Haki's first time I ever used HTML, CSS and JavaScript and most of the art was drawn by me!
           After a while I decided to rebuild the project with a library called "Phaser" and the result was much smoother but I couldn't finish the project because of other duties.
           There are two demos, the old and the new versions, that can be tried in your browse and they are linked in the GitHub Repository!
 
-
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Some of Haki's hobbies and interests include:
+      - Chess
+      - Farming
+      - Martial Arts
+      - Motorbikes
+      - Jumping Rope
+      - Fantasy Novels
+      - Drawing
+      - Spirituality
+      - Lifting Weights
 
 
 # Footer
-footer_show_references: false
+footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
