@@ -109,7 +109,10 @@ content:
         quote: >
           Internal registration required for full access.
         description: |
-          Ticketparser.io is a robust web application developed to streamline event discovery and synchronize inventory from multiple third-party sources, achieving over a 90% reduction in manual ticket parsing time. The project leveraged Flask, React, and Docker to ensure scalability and maintainability, with CI/CD pipelines via GitHub Actions for efficient deployment on AWS ECS and S3, resulting in a 50% reduction in deployment times and 99.9% uptime. The front-end redevelopment focused on enhancing SEO and user engagement, leading to a 27% increase in organic traffic and a 14% boost in user interaction. The project also involved managing a team of external contractors for cohesive UI/UX design and content creation, and the development of tools to enhance data accuracy and pricing strategies, all within an agile, collaborative environment.
+          An application designed to match ticket information with relevant events by extracting key details such as event name, date, and location from a ticket.
+          It processes this data by filtering significant keywords and querying events from the Skybox API.
+          The front end interface allows users to input ticket information, while the back-end handles event filtering and classification based on keyword relevance and time compatibility.
+          The application is deployed on AWS using ECS for scalable hosting and S3 for storage, ensuring reliability and efficiency in ticket-to-event matching.
 
       - layout: left
         border: weak
