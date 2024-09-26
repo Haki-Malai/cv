@@ -93,7 +93,7 @@ content:
         sub_title: BA in Informatics
         caption: 2017 - 2024
         quote: >
-            Haki has completed all of his responsibilities and will officially graduate in late 2024.
+            Haki has completed all of his responsibilities and will officially participate in the graduation ceremony in late 2024.
         description: |
           Haki's graduation was extended due to his commitment to professional projects and a deeper exploration of advanced application techniques, enhancing both his academic and professional growth.
           In his thesis, Haki Malai develops a web application using modern software libraries and examines methods to ensure its reliable operation throughout the Software Development Life Cycle (SDLC).
@@ -108,7 +108,6 @@ content:
         link: https://ticketparser.io
         quote: >
           Internal registration required for full access.
-
         description: |
           Ticketparser.io is a robust web application developed to streamline event discovery and synchronize inventory from multiple third-party sources, achieving over a 90% reduction in manual ticket parsing time. The project leveraged Flask, React, and Docker to ensure scalability and maintainability, with CI/CD pipelines via GitHub Actions for efficient deployment on AWS ECS and S3, resulting in a 50% reduction in deployment times and 99.9% uptime. The front-end redevelopment focused on enhancing SEO and user engagement, leading to a 27% increase in organic traffic and a 14% boost in user interaction. The project also involved managing a team of external contractors for cohesive UI/UX design and content creation, and the development of tools to enhance data accuracy and pricing strategies, all within an agile, collaborative environment.
 
@@ -141,7 +140,9 @@ content:
         quote: >
           Requires invitation to be able to login, please use the contact details to request one.
         description: |
-          The project is a well-structured user interface framework using ReactJS, designed for efficient management of files, folders, and user interactions. It features robust state management and seamless server communication through a dedicated API client, focusing on modularity and ease of use. This setup ensures the framework is both maintainable and scalable, supporting modern web application development.
+          The project is a well-structured user interface framework using ReactJS, designed for efficient management of files, folders, and user interactions.
+          It features robust state management and seamless server communication through a dedicated API client, focusing on modularity and ease of use.
+          This setup ensures the framework is both maintainable and scalable, supporting modern web application development.
 
       - layout: left
         border: weak
@@ -151,8 +152,57 @@ content:
             icon: fab fa-github
             url: https://github.com/Haki-Malai/digital-odyssey
         quote: >
+          A Flask-Powered Ecommerce Application
         description: |
-          A custom e-commerce shop inspired by opencart and based on the codebase of https://petshoppotamos.gr. The project includes a CMS and typical ecommerce features such as product catalog management, shopping cart functionality, and payment integration.
+          Digital Odyssey is a versatile ecommerce web application built with the Python Flask framework, featuring a full range of functionalities for both user and administrative tasks.
+          This application not only supports product browsing and order processing but also includes a custom CMS for backend management accessible via an /admin page.
+          It incorporates Elasticsearch to enhance search capabilities, along with a responsive design for a seamless user experience across devices.
+          The README in the repository provides detailed setup and usage instructions, showcasing its readiness for both development and deployment.
+
+      - layout: left
+        border: weak
+        title: GEMH Info Extractor
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/gemh-info-extractor
+        quote: >
+          Python-Based Data Parsing Tool
+        description: |
+          The GEMH Info Extractor is a Python project designed to parse text files and extract detailed information about companies.
+          It accurately identifies and extracts a company's official name, GEMH number, website details, and the registration date from the provided texts.
+          This data is then structured by a specialized DataExtractor class, utilizing specific patterns and attributes to ensure precision.
+          The extracted information is stored in a MySQL database and can be queried through a RESTful API, which also offers live documentation.
+          This tool is ideal for streamlined data extraction and efficient information management, all accessible via a user-friendly API documented on a dedicated web page.
+
+      - layout: left
+        border: weak
+        title: "Identifying Covid-19 infection cases in Twitter text: A Machine Learning approach"
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/Covid-19-Tweet-Classifier
+        quote: >
+          Harnessing social media for public health: From tweets to treatment.
+        description: |
+          This project utilizes machine learning to identify tweets indicating COVID-19 infections, distinguishing them from general COVID-related discussions.
+          Using a dataset of 2000 annotated tweets, a bidirectional recurrent neural network (BRNN) was implemented, achieving an F1-score of 0.98.
+          This study demonstrates the potential of social media data in real-time epidemic monitoring and addresses challenges such as data imbalance and informal language.
+
+      - layout: left
+        border: weak
+        title: Baby Cry Detection Using CNNs in MATLAB
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/baby-cry-detection
+        quote: >
+          Turning sound into insight: Enhancing care with technology
+        description: |
+          This MATLAB application employs convolutional neural networks (CNNs) to detect baby crying sounds from audio inputs.
+          Utilizing the ESC-50 dataset, the project involves preprocessing audio into mel spectrograms and training a neural network with these data.
+          The app features a trained model that analyzes sounds from the microphone to determine if a baby is crying, displaying results visually through color-coded indicators and a mel spectrogram of the audio. 
+          The process includes data categorization, spectrogram generation, and network training, culminating in a practical tool for baby cry detection.
 
       - layout: left
         border: weak
@@ -162,9 +212,11 @@ content:
             icon: fab fa-github
             url: https://github.com/Haki-Malai/flask-triviamaster
         quote: >
-
+          An Interactive Trivia Game
         description: |
-          A trivia game in Python that uses SQLAlchemy for the database operations and includes automated scripts via API, shell operations and database migrations.
+          Flask-TriviaMaster is a dynamic trivia game application developed using Python and the Flask framework.
+          This game allows users to engage in trivia challenges across various categories, leveraging a robust backend managed through a series of Flask routes for game sessions. The application is designed to offer a smooth user experience, enabling players to start new games, answer questions, and view their results, all through an intuitive interface.
+          The GitHub repository provides comprehensive guidance on installation, including dependency management and database setup, ensuring users can easily set up and start playing the trivia game locally.
 
       - layout: left
         border: weak
@@ -173,7 +225,11 @@ content:
         quote: >
           The website is temporarily offline.
         description: |
-          Except of what is visible to the customer, there also exists an admin page that gives access to the owner to update the website with new products, change the colors, add art, promote new products/sales and much more! The website is build with Flask and uses Jinja2 for the frontend. The goal for the future is to make it faster by making the website static instead of dynamic, with the price of having to wait a little more to be able to see any changes from the client view.
+          Beyond the customer-facing elements, the website features a comprehensive admin page that empowers the owner to seamlessly update the website with new products,
+          modify design elements, feature artwork, and promote sales, among other functionalities.
+          Built using the Flask framework and leveraging Jinja2 for frontend templating, the website ensures a flexible and dynamic user experience.
+          Looking ahead, the goal is to enhance performance by transitioning the website from a dynamic to a static architecture.
+          This change aims to speed up load times significantly, although it will require a slight delay in reflecting updates on the client side.
 
       - layout: left
         border: weak
@@ -184,10 +240,14 @@ content:
           - title:  Github page for project
             icon: fab fa-github
             url: https://github.com/Haki-Malai/pacman.js/
+        quote: >
+          Enhanced Personal Take on Classic Pac-Man
         description: |
-          A unique variant of the classic Pac-Man with the goal of getting his first steps into JavaScript. The final product is quite impressive, having in mind there were no third party libraries involved, this was Haki's first time I ever used HTML, CSS and JavaScript and most of the art was drawn by me!
-          After a while I decided to rebuild the project with a library called "Phaser" and the result was much smoother but I couldn't finish the project because of other duties.
-          There are two demos, the old and the new versions, that can be tried in your browse and they are linked in the GitHub Repository!
+          This project presents a unique spin on the classic Pac-Man game, marking Haki's initial foray into JavaScript.
+          The final iteration is notably impressive, especially considering the exclusive use of native web technologies without any third-party libraries.
+          This was Haki's first venture into HTML, CSS, and JavaScript, with most of the artwork personally crafted by Haki. Motivated by the desire to refine the game further, Haki later began rebuilding the project using the Phaser library, which yielded a much smoother gameplay experience.
+          However, due to other commitments, the enhanced version remains incomplete.
+          Both the original and the updated demos are available for play directly in the browser and can be accessed through the links provided in the GitHub repository.
 
       - layout: left
         border: weak
@@ -207,9 +267,9 @@ content:
           - title: Netlify Demo Hyper Sudoku
             icon: fas fa-th
         description: |
-          A unique variant of the classic Pac-Man with the goal of getting his first steps into JavaScript. The final product is quite impressive, having in mind there were no third party libraries involved, this was Haki's first time I ever used HTML, CSS and JavaScript and most of the art was drawn by me!
-          After a while I decided to rebuild the project with a library called "Phaser" and the result was much smoother but I couldn't finish the project because of other duties.
-          There are two demos, the old and the new versions, that can be tried in your browse and they are linked in the GitHub Repository!
+          Haki's JavaScript Game Collection features creative adaptations of classic games like Tetris, Pac-Man, SudokuX, and Hyper Sudoku,
+          all developed with HTML, CSS, and JavaScript. This portfolio, accessible on GitHub and through Netlify demos,
+          highlights Haki's skill in coding and design, showcasing a range of projects from nostalgic to complex.
 
   - title: Hobbies and Interests
     layout: text
@@ -224,7 +284,6 @@ content:
       - Drawing
       - Spirituality
       - Lifting Weights
-
 
 footer_show_references: true
 references_title: References on request
