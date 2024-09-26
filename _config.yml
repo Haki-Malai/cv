@@ -202,38 +202,38 @@ content:
           The app features a trained model that analyzes sounds from the microphone to determine if a baby is crying, displaying results visually through color-coded indicators and a mel spectrogram of the audio.
           The process includes data categorization, spectrogram generation, and network training, culminating in a practical tool for baby cry detection.
 
-  - layout: left
-    border: weak
-    title: JavaScript Games
-    link: https://github.com/Haki-Malai/Games
-    link_text: GitHub Repository
-    additional_links:
-      - title: Netlify Demo Pac-Man
-        icon: fab fa-ghost
-        url: https://newpacmanjs.netlify.app
-      - title: NEw Pac-Man GitHub
-        icon: fab fa-github
-        url: ttps://github.com/Haki-Malai/pacman.js
-      - title: Netlify Demo Tetris
-        icon: fas fa-th-large
-        url: https://tetris-hm.netlify.app
-      - title: Netlify Demo Pac-Man Old
-        icon: fas fa-ghost
-        url: https://oldpacman.netlify.app
-      - title: Netlify Demo SudokuX
-        icon: fas fa-th
-        url: https://sudokux.netlify.app
-      - title: Netlify Demo Hyper Sudoku
-        icon: fas fa-th
-    quote: This collection highlights Haki's skill in coding and design, showcasing a range of projects from nostalgic to complex.
-    description: |
-      Haki's JavaScript Game Collection features creative adaptations of classic games like Tetris, Pac-Man, SudokuX, and Hyper Sudoku,
-      all developed with HTML, CSS, and JavaScript. This portfolio showcases a unique spin on the classic Pac-Man game, marking Haki's initial foray into JavaScript.
-      The final iteration of Pac-Man is notably impressive, especially considering the exclusive use of native web technologies without any third-party libraries.
-      This was Haki's first venture into HTML, CSS, and JavaScript, with most of the artwork personally crafted by Haki
-      Motivated by the desire to refine the game further, Haki later began rebuilding the project using the Phaser library, which yielded a much smoother gameplay experience.
-      However, due to other commitments, the enhanced version remains incomplete.
-      Both the original and updated demos are available for play directly in the browser.
+      - layout: left
+        border: weak
+        title: JavaScript Games
+        link: https://github.com/Haki-Malai/Games
+        link_text: GitHub Repository
+        additional_links:
+          - title: Netlify Demo Pac-Man
+            icon: fab fa-ghost
+            url: https://newpacmanjs.netlify.app
+          - title: NEw Pac-Man GitHub
+            icon: fab fa-github
+            url: ttps://github.com/Haki-Malai/pacman.js
+          - title: Netlify Demo Tetris
+            icon: fas fa-th-large
+            url: https://tetris-hm.netlify.app
+          - title: Netlify Demo Pac-Man Old
+            icon: fas fa-ghost
+            url: https://oldpacman.netlify.app
+          - title: Netlify Demo SudokuX
+            icon: fas fa-th
+            url: https://sudokux.netlify.app
+          - title: Netlify Demo Hyper Sudoku
+            icon: fas fa-th
+        quote: This collection highlights Haki's skill in coding and design, showcasing a range of projects from nostalgic to complex.
+        description: |
+          Haki's JavaScript Game Collection features creative adaptations of classic games like Tetris, Pac-Man, SudokuX, and Hyper Sudoku,
+          all developed with HTML, CSS, and JavaScript. This portfolio showcases a unique spin on the classic Pac-Man game, marking Haki's initial foray into JavaScript.
+          The final iteration of Pac-Man is notably impressive, especially considering the exclusive use of native web technologies without any third-party libraries.
+          This was Haki's first venture into HTML, CSS, and JavaScript, with most of the artwork personally crafted by Haki
+          Motivated by the desire to refine the game further, Haki later began rebuilding the project using the Phaser library, which yielded a much smoother gameplay experience.
+          However, due to other commitments, the enhanced version remains incomplete.
+          Both the original and updated demos are available for play directly in the browser.
 
   - title: Hobbies and Interests
     layout: text
