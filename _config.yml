@@ -211,6 +211,9 @@ content:
       - title: Netlify Demo Pac-Man
         icon: fab fa-ghost
         url: https://newpacmanjs.netlify.app
+      - title: NEw Pac-Man GitHub
+        icon: fab fa-github
+        url: ttps://github.com/Haki-Malai/pacman.js
       - title: Netlify Demo Tetris
         icon: fas fa-th-large
         url: https://tetris-hm.netlify.app
