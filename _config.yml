@@ -124,10 +124,9 @@ content:
         quote: >
           This is a part of Haki's thesis for his degree of the Ionian University.
         description: |
-          The project employs the Flask framework to create a server architecture that manages HTTP requests and routes efficiently.
-          It integrates extensions for data management, serialization, and cross-origin resource sharing.
-          Features like asynchronous OAuth2 authentication, OpenAPI Swagger documentation, task management with Celery, email handling, and caching are included to enhance performance and functionality.
-          The design emphasizes scalability and maintainability, catering to a variety of operational needs.
+          A Flask-based CMS efficiently manages files and folders with role-based authorization.
+          It supports OAuth2 authentication, data handling extensions, OpenAPI documentation, 
+          and features like task management and caching for scalability and maintainability.
 
       - layout: left
         border: weak
