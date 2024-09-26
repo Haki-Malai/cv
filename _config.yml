@@ -208,12 +208,12 @@ content:
         link: https://github.com/Haki-Malai/Games
         link_text: GitHub Repository
         additional_links:
-          - title: Netlify Demo Pac-Man
-            icon: fab fa-ghost
-            url: https://newpacmanjs.netlify.app
-          - title: NEw Pac-Man GitHub
+          - title: New Pac-Man GitHub
             icon: fab fa-github
             url: ttps://github.com/Haki-Malai/pacman.js
+          - title: Netlify Demo Pac-Man
+            icon: fas fa-ghost
+            url: https://newpacmanjs.netlify.app
           - title: Netlify Demo Tetris
             icon: fas fa-th-large
             url: https://tetris-hm.netlify.app
