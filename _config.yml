@@ -5,7 +5,7 @@ version: 2
 name: Haki Malai
 title: Software Developer
 email: hakimalai@outlook.com
-phone: 6955065511
+phone: (+30) 6955065511
 
 darkmode: true
 
@@ -36,10 +36,21 @@ content:
   - title: Experience
     layout: list
     content:
+      - layout: right
+        title: Gaspar AI
+        sub_title: Backend Developer
+        caption: Oct. 2024 - Now
+        link: gaspar.ai
+        quote: >
+            Short-term position
+        description: |
+            - Joined Gaspar AI for a short-term contract to expand my hands-on experience with technologies such as Django, gRPC, Kubernetes and WebSockets in a fast-paced, startup environment.
+            - Developed a web-based interaction platform, enabling users to directly engage with Gaspar AI's bot via the company website, broadening accessibility beyond Slack and Microsoft Teams.
+            - Engineered a proprietary knowledge base system to replace reliance on third-party solutions like Jira or Freshservice, reducing costs and improving internal control over data.
       - layout: left
         title: Hakra LTD
         sub_title: Full Stack Developer
-        caption: May 2023 - Present
+        caption: May 2023 - Oct. 2024
         description: |
             - Spearheads the redevelopment of the front-end for coinseats.com, enhancing SEO viability through advanced animations and design implementations based on designer templates, resulting in a 27% increase in organic traffic and a 14% boost in user engagement.
             - Hires and manages external contractors and freelancers for tasks such as UI/UX design, logo design, and content creation, ensuring cohesive and high-quality project deliverables.
