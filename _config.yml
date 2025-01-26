@@ -41,10 +41,8 @@ content:
         sub_title: Backend Developer
         caption: Oct. 2024 - Now
         link: gaspar.ai
-        quote: >
-            Short-term position
         description: |
-            - Joined Gaspar AI for a short-term contract to expand my hands-on experience with technologies such as Django, gRPC, Kubernetes and WebSockets in a fast-paced, startup environment.
+            - Joined Gaspar AI to expand my hands-on experience with technologies such as Django, gRPC, Kubernetes and WebSockets in a fast-paced, startup environment.
             - Developed a web-based interaction platform, enabling users to directly engage with Gaspar AI's bot via the company website, broadening accessibility beyond Slack and Microsoft Teams.
             - Engineered a proprietary knowledge base system to replace reliance on third-party solutions like Jira or Freshservice, reducing costs and improving internal control over data.
       - layout: left
