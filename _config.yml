@@ -11,10 +11,10 @@ darkmode: true
 
 github_username: Haki-Malai
 linkedin_username: haki-malai
-additional_links:
-  - title: Pdf Download
-    icon: far fa-file-pdf
-    url: https://github.com/Haki-Malai/cv/raw/master/pdf/haki-malai-resume.pdf
+#additional_links:
+#  - title: Pdf Download
+#    icon: far fa-file-pdf
+#    url: https://github.com/Haki-Malai/cv/raw/master/pdf/haki-malai-resume.pdf
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
