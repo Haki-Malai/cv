@@ -102,7 +102,7 @@ content:
         sub_title: BA in Informatics
         caption: 2017 - 2024
         quote: >
-            Haki has completed all of his responsibilities and will officially participate in the graduation ceremony later in 2025.
+          Haki's graduation was delayed by professional commitments and advanced application work, enriching his academic and professional growth.
         description: |
           Haki's graduation was extended due to his commitment to professional projects and a deeper exploration of advanced application techniques, enhancing both his academic and professional growth.
           In his thesis, Haki Malai develops a web application using modern software libraries and examines methods to ensure its reliable operation throughout the Software Development Life Cycle (SDLC).
@@ -126,47 +126,37 @@ content:
       - layout: left
         border: weak
         title: Arctic Fox
-        additional_links:
-          - title:  Github page for project
-            icon: fab fa-github
-            url: https://github.com/Haki-Malai/arctic-fox
-        quote: >
-          This is a part of Haki's thesis for his degree of the Ionian University.
-        description: |
-          A Flask-based CMS efficiently manages files and folders with role-based authorization.
-          It supports OAuth2 authentication, data handling extensions, OpenAPI documentation, 
-          and features like task management and caching for scalability and maintainability.
-
-      - layout: left
-        border: weak
-        title: Arctic Fox UI
         link: http://arctic-fox-ui.s3-website-us-east-1.amazonaws.com
         link_text: AWS S3 Deploy
         additional_links:
-          - title:  Github page for project
+          - title: CMS Backend (GitHub)
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/arctic-fox
+          - title: UI Frontend (GitHub)
             icon: fab fa-github
             url: https://github.com/Haki-Malai/arctic-fox-ui
         quote: >
-          Requires invitation to be able to login, please use the contact details to request one.
+          A unified suite combining a Flask-based CMS with a ReactJS user interface, designed for efficient file and folder management with role-based authorization.
         description: |
-          The project is a well-structured user interface framework using ReactJS, designed for efficient management of files, folders, and user interactions.
-          It features robust state management and seamless server communication through a dedicated API client, focusing on modularity and ease of use.
-          This setup ensures the framework is both maintainable and scalable, supporting modern web application development.
-
-      - layout: left
-        border: weak
-        title: digital-odyssey
-        additional_links:
-          - title:  Github page for project
-            icon: fab fa-github
-            url: https://github.com/Haki-Malai/digital-odyssey
-        quote: >
-          A Flask-Powered Ecommerce Application
-        description: |
-          Digital Odyssey is a versatile ecommerce web application built with the Python Flask framework, featuring a full range of functionalities for both user and administrative tasks.
-          This application not only supports product browsing and order processing but also includes a custom CMS for backend management accessible via an /admin page.
-          It incorporates Elasticsearch to enhance search capabilities, along with a responsive design for a seamless user experience across devices.
-          The README in the repository provides detailed setup and usage instructions, showcasing its readiness for both development and deployment.
+          This project merges the Arctic Fox CMS and its UI into a cohesive platform. 
+          The backend, built with Flask, supports OAuth2 authentication, OpenAPI documentation, task management, and caching for scalability.
+          The frontend, implemented in ReactJS, offers robust state management and seamless communication with the API client.
+          Together, they provide a maintainable, scalable solution for modern web application development.
+      
+            - layout: left
+              border: weak
+              title: digital-odyssey
+              additional_links:
+                - title:  Github page for project
+                  icon: fab fa-github
+                  url: https://github.com/Haki-Malai/digital-odyssey
+              quote: >
+                A Flask-Powered Ecommerce Application
+              description: |
+                Digital Odyssey is a versatile ecommerce web application built with the Python Flask framework, featuring a full range of functionalities for both user and administrative tasks.
+                This application not only supports product browsing and order processing but also includes a custom CMS for backend management accessible via an /admin page.
+                It incorporates Elasticsearch to enhance search capabilities, along with a responsive design for a seamless user experience across devices.
+                The README in the repository provides detailed setup and usage instructions, showcasing its readiness for both development and deployment.
 
       - layout: left
         border: weak
@@ -222,19 +212,19 @@ content:
           - title: New Pac-Man GitHub
             icon: fab fa-github
             url: ttps://github.com/Haki-Malai/pacman.js
-          - title: Netlify Demo Pac-Man
+          - title: Pac-Man Netlify Demo
             icon: fas fa-ghost
             url: https://newpacmanjs.netlify.app
-          - title: Netlify Demo Tetris
+          - title: Tetris Netlify Demo
             icon: fas fa-th-large
             url: https://tetris-hm.netlify.app
-          - title: Netlify Demo Pac-Man Old
+          - title: Old Pac-Man Netlify Demo
             icon: fas fa-ghost
             url: https://oldpacman.netlify.app
-          - title: Netlify Demo SudokuX
+          - title: SudokuX Netlify Demo
             icon: fas fa-th
             url: https://sudokux.netlify.app
-          - title: Netlify Demo Hyper Sudoku
+          - title: Hyper Sudoku Netlify Demo
             icon: fas fa-th
         quote: This collection highlights Haki's skill in coding and design, showcasing a range of projects from nostalgic to complex.
         description: |
@@ -253,13 +243,12 @@ content:
       - ♟️ Chess
       - 🥋 Martial Arts
       - 🧘🏻 Spirituality
-      - 🤸🏼 Jumping Rope
+      - 🤸🏼 Jumping Rope, Running, Biking
       - 📖 Fantasy Novels
       - 👨🏼‍🎨 Drawing
       - 🏋🏼 Lifting Weights
       - 🎮 Gaming
       - 🏍️ Motorbikes
-      - 👨🏼‍🌾 Farming
 
 footer_show_references: true
 references_title: References on request
