@@ -1,0 +1,250 @@
+repository: Haki-Malai/cv
+url: hakimalai.com
+version: 2
+
+name: Haki Malai
+title: Software Developer
+email: hakimalai@outlook.com
+phone: (+30) 6955065511
+
+darkmode: true
+
+github_username: Haki-Malai
+linkedin_username: haki-malai
+#additional_links:
+#  - title: Pdf Download
+#    icon: far fa-file-pdf
+#    url: https://github.com/Haki-Malai/cv/raw/master/pdf/haki-malai-resume.pdf
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+gtm: "GTM-W65D5C8Z"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+about_title: About
+about_profile_image: images/profile.jpg
+about_content: |
+  Haki is a software engineer with a passion for problem-solving and continuous learning.
+  Known for a curious and analytical mindset, he enjoys tackling challenges and finding innovative solutions, both in and out of work.
+  He values collaboration and believes in the power of teamwork to achieve meaningful results. With a focus on personal growth,
+  he strives to bring creativity, dedication, and a positive attitude to every project and interaction.
+  Beyond his technical expertise, He finds balance in life through activities that stimulate both mind and body.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Gaspar AI
+        sub_title: Full Stack Developer
+        caption: Sep. 2024 - Present
+        link: gaspar.ai
+        description: |
+          - Extended the legacy Angular app and shipped Django Channels WebSocket chat, enabling direct website engagement with Gaspar AI’s bot and real-time messaging with ack-on-delay UX, removing reliance on Slack/Teams.
+          - Rebuilt the legacy Angular app in React and TypeScript, adding composable hooks, context state, React Query caching, and real-time updates for faster loads and simpler maintenance.
+          - Configured multi-subdomain frontend deployments in Kubernetes to support canary adoption and contingency planning.
+          - Engineered a proprietary knowledge base system integrated with S3, replacing reliance on third-party solutions like Confluence and Google Drive, reducing costs and extending internal control over data.
+          - Implemented password-based auth with recovery and first-time user flows, extending OAuth2 to support broader access and reduce friction for new and returning users.
+          - Integrated multiple third-party systems and internal plugins for ticketing, identity providers, email, and storage; designed robust API clients with pagination, retries, idempotency keys, rate limiting, and webhook receivers; standardized data models and error mapping to reduce coupling and simplify future connectors.
+          - Handled on-call incident triage across web, API, and workers by tracking error spikes and latency in Sentry and Grafana, filing structured bug reports with steps and context, coordinating quick patch rollouts or rollbacks, and verifying customer impact is cleared.
+      - layout: right
+        title: Hakra LTD
+        sub_title: Full Stack Developer
+        caption: May 2022 - Sep. 2024
+        description: |
+          - Spearheaded the redevelopment of the frontend for coinseats.com (unavailable), enhancing SEO viability through advanced animations and design implementations based on designer templates, resulting in a 27% increase in organic traffic and a 14% boost in user engagement (confirmed via internal analytics dashboard).
+          - Directed the development of the MVP for section-mapper, an internal tool designed to aggregate and correlate data from multiple ticketing platforms using AI and NLP techniques for enhanced data accuracy and usability.
+          - Contributed to the improvement and maintenance of the manual pricer tool by refactoring legacy code to align with PEP8 standards, streamlining algorithms, and implementing new features. These enhancements optimized ticket pricing strategies and improved market control.
+          - Developed and launched an automated email notification system using Node.js and Express, integrated with a MongoDB database, to alert users about ticket availability and price changes.
+          - Launched ticketparser.io (unavailable), a comprehensive web application to facilitate event discovery and inventory synchronization from various third party sources, using Flask, React, and Docker to ensure scalability and maintainability. The platform reduced manual ticket parsing time by more than 90%.
+          - Implemented robust system architectures including CI/CD pipelines via GitHub Actions, and managed deployment on AWS ECS and S3 for backend and frontend scalability, cutting down deployment times and ensuring 99.9% uptime.
+      - layout: left
+        title: CONCISE TECHNOLOGIES LTD
+        sub_title: Full Stack Developer
+        caption: Apr. 2021 - May 2022
+        link: www.concise.gr
+        description: |
+          - Built several interactive and user-friendly advanced scientific calculators using modern web technologies such as JavaScript, HTML5, and CSS, focusing on writing maintainable, modular code and creating visually appealing UIs.
+          - Designed and implemented a POC of a chat application using a full-stack approach, combining React Native, NodeJS, NoSQL, and WebSocket technologies, to provide users with real-time messaging and collaboration features.
+          - Automated repetitive and manual tasks using scripting and tools (Python), saving significant time and effort for the team.
+          - Developed and maintained a variety of web applications and services, using technologies such as Node.js, MongoDB and React, to deliver intuitive, responsive and secure solutions to end-users.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-middle
+        title: Ionian University
+        sub_title: BA in Informatics
+        caption: 2024
+        quote: >
+          Haki's graduation was delayed by professional commitments and advanced application work, enriching his academic and professional growth.
+        description: |
+          Haki's graduation was extended due to his commitment to professional projects and a deeper exploration of advanced application techniques, enhancing both his academic and professional growth.
+          In his thesis, Haki Malai develops a web application using modern software libraries and examines methods to ensure its reliable operation throughout the Software Development Life Cycle (SDLC).
+          He employs unit tests and Static Application Security Testing (SAST) to detect errors and vulnerabilities. The research presents a Python-based RESTful API application, showcasing the use of HTML, CSS, and JavaScript with ReactJS.
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: TicketParser
+        link: https://ticketparser.io
+        quote: >
+          Internal registration required for full access.
+        description: |
+          An application designed to match ticket information with relevant events by extracting key details such as event name, date, and location from a ticket.
+          It processes this data by filtering significant keywords and querying events from the Skybox API.
+          The front end interface allows users to input ticket information, while the back-end handles event filtering and classification based on keyword relevance and time compatibility.
+          The application is deployed on AWS using ECS for scalable hosting and S3 for storage, ensuring reliability and efficiency in ticket-to-event matching.
+
+      - layout: left
+        border: weak
+        title: Arctic Fox
+        link: http://arctic-fox-ui.s3-website-us-east-1.amazonaws.com
+        link_text: AWS S3 Deploy
+        additional_links:
+          - title: CMS Backend (GitHub)
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/arctic-fox
+          - title: UI Frontend (GitHub)
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/arctic-fox-ui
+        quote: >
+          A unified suite combining a Flask-based CMS with a ReactJS user interface, designed for efficient file and folder management with role-based authorization.
+        description: |
+          This project merges the Arctic Fox CMS and its UI into a cohesive platform.
+          The backend, built with Flask, supports OAuth2 authentication, OpenAPI documentation, task management, and caching for scalability.
+          The frontend, implemented in ReactJS, offers robust state management and seamless communication with the API client.
+          Together, they provide a maintainable, scalable solution for modern web application development.
+
+            - layout: left
+              border: weak
+              title: digital-odyssey
+              additional_links:
+                - title:  Github page for project
+                  icon: fab fa-github
+                  url: https://github.com/Haki-Malai/digital-odyssey
+              quote: >
+                A Flask-Powered Ecommerce Application
+              description: |
+                Digital Odyssey is a versatile ecommerce web application built with the Python Flask framework, featuring a full range of functionalities for both user and administrative tasks.
+                This application not only supports product browsing and order processing but also includes a custom CMS for backend management accessible via an /admin page.
+                It incorporates Elasticsearch to enhance search capabilities, along with a responsive design for a seamless user experience across devices.
+                The README in the repository provides detailed setup and usage instructions, showcasing its readiness for both development and deployment.
+
+      - layout: left
+        border: weak
+        title: GEMH Info Extractor
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/gemh-info-extractor
+        quote: >
+          Python-Based Data Parsing Tool
+        description: |
+          The GEMH Info Extractor is a Python project designed to parse text files and extract detailed information about companies.
+          It accurately identifies and extracts a company's official name, GEMH number, website details, and the registration date from the provided texts.
+          This data is then structured by a specialized DataExtractor class, utilizing specific patterns and attributes to ensure precision.
+          The extracted information is stored in a MySQL database and can be queried through a RESTful API, which also offers live documentation.
+          This tool is ideal for streamlined data extraction and efficient information management, all accessible via a user-friendly API documented on a dedicated web page.
+
+      - layout: left
+        border: weak
+        title: "Identifying Covid-19 infection cases in Twitter text: A Machine Learning approach"
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/Covid-19-Tweet-Classifier
+        quote: >
+          Harnessing social media for public health: From tweets to treatment.
+        description: |
+          This project utilizes machine learning to identify tweets indicating COVID-19 infections, distinguishing them from general COVID-related discussions.
+          Using a dataset of 2000 annotated tweets, a bidirectional recurrent neural network (BRNN) was implemented, achieving an F1-score of 0.98.
+          This study demonstrates the potential of social media data in real-time epidemic monitoring and addresses challenges such as data imbalance and informal language.
+
+      - layout: left
+        border: weak
+        title: Baby Cry Detection Using CNNs in MATLAB
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/baby-cry-detection
+        quote: >
+          Turning sound into insight: Enhancing care with technology
+        description: |
+          This MATLAB application employs convolutional neural networks (CNNs) to detect baby crying sounds from audio inputs.
+          Utilizing the ESC-50 dataset, the project involves preprocessing audio into mel spectrograms and training a neural network with these data.
+          The app features a trained model that analyzes sounds from the microphone to determine if a baby is crying, displaying results visually through color-coded indicators and a mel spectrogram of the audio.
+          The process includes data categorization, spectrogram generation, and network training, culminating in a practical tool for baby cry detection.
+
+      - layout: left
+        border: weak
+        title: JavaScript Games
+        link: https://github.com/Haki-Malai/Games
+        link_text: GitHub Repository
+        additional_links:
+          - title: New Pac-Man GitHub
+            icon: fab fa-github
+            url: ttps://github.com/Haki-Malai/pacman.js
+          - title: Pac-Man Netlify Demo
+            icon: fas fa-ghost
+            url: https://newpacmanjs.netlify.app
+          - title: Tetris Netlify Demo
+            icon: fas fa-th-large
+            url: https://tetris-hm.netlify.app
+          - title: Old Pac-Man Netlify Demo
+            icon: fas fa-ghost
+            url: https://oldpacman.netlify.app
+          - title: SudokuX Netlify Demo
+            icon: fas fa-th
+            url: https://sudokux.netlify.app
+          - title: Hyper Sudoku Netlify Demo
+            icon: fas fa-th
+        quote: This collection highlights Haki's skill in coding and design, showcasing a range of projects from nostalgic to complex.
+        description: |
+          Haki's JavaScript Game Collection features creative adaptations of classic games like Tetris, Pac-Man, SudokuX, and Hyper Sudoku,
+          all developed with HTML, CSS, and JavaScript. This portfolio showcases a unique spin on the classic Pac-Man game, marking Haki's initial foray into JavaScript.
+          The final iteration of Pac-Man is notably impressive, especially considering the exclusive use of native web technologies without any third-party libraries.
+          This was Haki's first venture into HTML, CSS, and JavaScript, with most of the artwork personally crafted by Haki
+          Motivated by the desire to refine the game further, Haki later began rebuilding the project using the Phaser library, which yielded a much smoother gameplay experience.
+          However, due to other commitments, the enhanced version remains incomplete.
+          Both the original and updated demos are available for play directly in the browser.
+
+  - title: Hobbies and Interests
+    layout: text
+    content: |
+      Some of Haki's hobbies and interests include:
+      - ♟️ Chess
+      - 🥋 Martial Arts
+      - 🧘🏻 Spirituality
+      - 🤸🏼 Jumping Rope, Running, Biking
+      - 📖 Fantasy Novels
+      - 👨🏼‍🎨 Drawing
+      - 🏋🏼 Lifting Weights
+      - 🎮 Gaming
+      - 🏍️ Motorbikes
+
+footer_show_references: true
+references_title: References on request
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
