@@ -32,44 +32,6 @@ about_content: |
   Beyond his technical expertise, He finds balance in life through activities that stimulate both mind and body.
 
 content:
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Gaspar AI
-        sub_title: Full Stack Developer
-        caption: Sep. 2024 - Present
-        link: gaspar.ai
-        description: |
-          - Extended the legacy Angular app and shipped Django Channels WebSocket chat, enabling direct website engagement with Gaspar AI’s bot and real-time messaging with ack-on-delay UX, removing reliance on Slack/Teams.
-          - Rebuilt the legacy Angular app in React and TypeScript, adding composable hooks, context state, React Query caching, and real-time updates for faster loads and simpler maintenance.
-          - Configured multi-subdomain frontend deployments in Kubernetes to support canary adoption and contingency planning.
-          - Engineered a proprietary knowledge base system integrated with S3, replacing reliance on third-party solutions like Confluence and Google Drive, reducing costs and extending internal control over data.
-          - Implemented password-based auth with recovery and first-time user flows, extending OAuth2 to support broader access and reduce friction for new and returning users.
-          - Integrated multiple third-party systems and internal plugins for ticketing, identity providers, email, and storage; designed robust API clients with pagination, retries, idempotency keys, rate limiting, and webhook receivers; standardized data models and error mapping to reduce coupling and simplify future connectors.
-          - Handled on-call incident triage across web, API, and workers by tracking error spikes and latency in Sentry and Grafana, filing structured bug reports with steps and context, coordinating quick patch rollouts or rollbacks, and verifying customer impact is cleared.
-      - layout: right
-        title: Hakra LTD
-        sub_title: Full Stack Developer
-        caption: May 2022 - Sep. 2024
-        description: |
-          - Spearheaded the redevelopment of the frontend for coinseats.com (unavailable), enhancing SEO viability through advanced animations and design implementations based on designer templates, resulting in a 27% increase in organic traffic and a 14% boost in user engagement (confirmed via internal analytics dashboard).
-          - Directed the development of the MVP for section-mapper, an internal tool designed to aggregate and correlate data from multiple ticketing platforms using AI and NLP techniques for enhanced data accuracy and usability.
-          - Contributed to the improvement and maintenance of the manual pricer tool by refactoring legacy code to align with PEP8 standards, streamlining algorithms, and implementing new features. These enhancements optimized ticket pricing strategies and improved market control.
-          - Developed and launched an automated email notification system using Node.js and Express, integrated with a MongoDB database, to alert users about ticket availability and price changes.
-          - Launched ticketparser.io (unavailable), a comprehensive web application to facilitate event discovery and inventory synchronization from various third party sources, using Flask, React, and Docker to ensure scalability and maintainability. The platform reduced manual ticket parsing time by more than 90%.
-          - Implemented robust system architectures including CI/CD pipelines via GitHub Actions, and managed deployment on AWS ECS and S3 for backend and frontend scalability, cutting down deployment times and ensuring 99.9% uptime.
-      - layout: left
-        title: CONCISE TECHNOLOGIES LTD
-        sub_title: Full Stack Developer
-        caption: Apr. 2021 - May 2022
-        link: www.concise.gr
-        description: |
-          - Built several interactive and user-friendly advanced scientific calculators using modern web technologies such as JavaScript, HTML5, and CSS, focusing on writing maintainable, modular code and creating visually appealing UIs.
-          - Designed and implemented a POC of a chat application using a full-stack approach, combining React Native, NodeJS, NoSQL, and WebSocket technologies, to provide users with real-time messaging and collaboration features.
-          - Automated repetitive and manual tasks using scripting and tools (Python), saving significant time and effort for the team.
-          - Developed and maintained a variety of web applications and services, using technologies such as Node.js, MongoDB and React, to deliver intuitive, responsive and secure solutions to end-users.
-
   - title: Education
     layout: list
     content:
@@ -77,8 +39,6 @@ content:
         title: Ionian University
         sub_title: BA in Informatics
         caption: 2024
-        quote: >
-          Haki's graduation was delayed by professional commitments and advanced application work, enriching his academic and professional growth.
         description: |
           Haki's graduation was extended due to his commitment to professional projects and a deeper exploration of advanced application techniques, enhancing both his academic and professional growth.
           In his thesis, Haki Malai develops a web application using modern software libraries and examines methods to ensure its reliable operation throughout the Software Development Life Cycle (SDLC).
