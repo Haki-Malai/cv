@@ -10,6 +10,7 @@ phone: (+30) 6955065511
 darkmode: true
 
 github_username: Haki-Malai
+linkedin_username: haki-m
 #additional_links:
 #  - title: Pdf Download
 #    icon: far fa-file-pdf
@@ -24,11 +25,11 @@ gtm: "GTM-W65D5C8Z"
 about_title: About
 about_profile_image: images/profile.jpg
 about_content: |
-  Haki is a software engineer with a passion for problem-solving and continuous learning.
-  Known for a curious and analytical mindset, he enjoys tackling challenges and finding innovative solutions, both in and out of work.
-  He values collaboration and believes in the power of teamwork to achieve meaningful results.
-  With a focus on personal growth, he strives to bring creativity, dedication, and a positive attitude to every project and interaction.
-  Beyond his technical expertise, he finds balance in life through activities that stimulate both mind and body.
+  I'm a software engineer with a curious and analytical mindset who enjoys solving problems, learning new things, and taking on challenges.
+  I like finding simple, practical solutions while keeping the bigger picture in mind, balancing long-term thinking with the urgency of the situation.
+  I value collaboration and teamwork, and strive to bring creativity, dedication, and a positive attitude to every project.
+  I'm always looking for ways to improve, both personally and professionally.
+  Outside of work, I enjoy staying active and finding balance through activities that keep both my mind and body engaged.
 
 content:
   - title: Education
@@ -39,13 +40,28 @@ content:
         sub_title: BA in Informatics
         caption: 2024
         description: |
-          Haki's graduation was extended due to his commitment to professional projects and a deeper exploration of advanced application techniques, enhancing both his academic and professional growth.
-          In his thesis, Haki Malai develops a web application using modern software libraries and examines methods to ensure its reliable operation throughout the Software Development Life Cycle (SDLC).
-          He employs unit tests and Static Application Security Testing (SAST) to detect errors and vulnerabilities. The research presents a Python-based RESTful API application, showcasing the use of HTML, CSS, and JavaScript with ReactJS.
+          For my thesis, I developed a web application using modern software libraries and examined methods to ensure its reliable operation throughout the Software Development Life Cycle (SDLC).
+          I employed unit tests and Static Application Security Testing (SAST) to detect errors and vulnerabilities. The research presents a Python-based RESTful API application with HTML, CSS, JavaScript, and ReactJS. AWS and Terraform were used to provision and deploy the thesis environment.
+
+          Graduation was extended due to commitments to professional projects and deeper exploration of advanced application techniques, strengthening both academic and professional growth.
 
   - title: Projects
     layout: list
     content:
+      - layout: left
+        border: weak
+        title: secure-waypoint
+        link: https://github.com/Haki-Malai/secure-waypoint
+        link_text: GitHub Repository
+        quote: >
+          A clean, modular FastAPI backend for authentication and user management.
+        description: |
+          I built secure-waypoint with separate API, controller, and repository layers to keep request handling, business logic, and database access organized.
+          It includes JWT access and refresh tokens, bcrypt password hashing, and role-based access control for users, moderators, and administrators.
+          User management supports CRUD operations, current-user profiles, username search, pagination, and creation-year filtering.
+          The backend uses asynchronous SQLAlchemy with PostgreSQL, provides OpenAPI and ReDoc documentation, and includes Alembic migration scaffolding.
+          Docker Compose runs the API, PostgreSQL, and Nginx, while GitHub Actions runs linting, formatting checks, and pytest coverage against PostgreSQL.
+
       - layout: left
         border: weak
         title: TicketParser
@@ -61,22 +77,13 @@ content:
       - layout: left
         border: weak
         title: Arctic Fox
-        link: http://arctic-fox-ui.s3-website-us-east-1.amazonaws.com
-        link_text: AWS S3 Deploy
-        additional_links:
-          - title: CMS Backend (GitHub)
-            icon: fab fa-github
-            url: https://github.com/Haki-Malai/arctic-fox
-          - title: UI Frontend (GitHub)
-            icon: fab fa-github
-            url: https://github.com/Haki-Malai/arctic-fox-ui
         quote: >
           A unified suite combining a Flask-based CMS with a ReactJS user interface, designed for efficient file and folder management with role-based authorization.
         description: |
-          This project merges the Arctic Fox CMS and its UI into a cohesive platform.
+          Arctic Fox builds on my thesis work and merges the Arctic Fox CMS and its UI into a cohesive platform.
           The backend, built with Flask, supports OAuth2 authentication, OpenAPI documentation, task management, and caching for scalability.
           The frontend, implemented in ReactJS, offers robust state management and seamless communication with the API client.
-          Together, they provide a maintainable, scalable solution for modern web application development.
+          AWS and Terraform support the deployment approach, providing a maintainable, scalable solution for modern web application development.
 
             - layout: left
               border: weak
@@ -138,43 +145,38 @@ content:
           The app features a trained model that analyzes sounds from the microphone to determine if a baby is crying, displaying results visually through color-coded indicators and a mel spectrogram of the audio.
           The process includes data categorization, spectrogram generation, and network training, culminating in a practical tool for baby cry detection.
 
+  - title: Games
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: PACKETLOSS
+        link: https://packetloss.hakimalai.com
+        link_text: Play PACKETLOSS
+        quote: >
+          A network-themed maze arcade game that grew out of my earlier Pac-Man project.
+        description: |
+          PACKETLOSS is built with TypeScript, Three.js, Vite, and React, with desktop and mobile controls.
+          Players recover data bits, evade enemies, and use power cores, portals, and weapons to navigate the maze.
+          It features solo play and private Battle Royale rooms backed by an authoritative Node.js WebSocket server, with accounts, synchronized profiles, and saved scores.
+          The AWS infrastructure uses Lambda APIs and DynamoDB for backend services and persistence, with S3 and CloudFront serving the frontend.
+
       - layout: left
         border: weak
         title: JavaScript Games
         link: https://github.com/Haki-Malai/Games
         link_text: GitHub Repository
-        additional_links:
-          - title: New Pac-Man GitHub
-            icon: fab fa-github
-            url: ttps://github.com/Haki-Malai/pacman.js
-          - title: Pac-Man Netlify Demo
-            icon: fas fa-ghost
-            url: https://newpacmanjs.netlify.app
-          - title: Tetris Netlify Demo
-            icon: fas fa-th-large
-            url: https://tetris-hm.netlify.app
-          - title: Old Pac-Man Netlify Demo
-            icon: fas fa-ghost
-            url: https://oldpacman.netlify.app
-          - title: SudokuX Netlify Demo
-            icon: fas fa-th
-            url: https://sudokux.netlify.app
-          - title: Hyper Sudoku Netlify Demo
-            icon: fas fa-th
-        quote: This collection highlights Haki's skill in coding and design, showcasing a range of projects from nostalgic to complex.
+        quote: >
+          Early projects built primarily to learn and experiment with web technologies.
         description: |
-          Haki's JavaScript Game Collection features creative adaptations of classic games like Tetris, Pac-Man, SudokuX, and Hyper Sudoku,
-          all developed with HTML, CSS, and JavaScript. This portfolio showcases a unique spin on the classic Pac-Man game, marking Haki's initial foray into JavaScript.
-          The final iteration of Pac-Man is notably impressive, especially considering the exclusive use of native web technologies without any third-party libraries.
-          This was Haki's first venture into HTML, CSS, and JavaScript, with most of the artwork personally crafted by Haki
-          Motivated by the desire to refine the game further, Haki later began rebuilding the project using the Phaser library, which yielded a much smoother gameplay experience.
-          However, due to other commitments, the enhanced version remains incomplete.
-          Both the original and updated demos are available for play directly in the browser.
+          I built this collection roughly 6–7 years ago to learn HTML, CSS, and JavaScript through hands-on projects.
+          It includes adaptations of Tetris, Pac-Man, SudokuX, and Hyper Sudoku, with much of the artwork created by me.
+          These games reflect my early experiments with game logic, browser interactions, and design. The Pac-Man project later evolved into PACKETLOSS, featured above.
 
   - title: Hobbies and Interests
     layout: text
     content: |
-      Some of Haki's hobbies and interests include:
+      Some of my hobbies and interests include:
       - ♟️ Chess
       - 🥋 Martial Arts
       - 🧘🏻 Spirituality
