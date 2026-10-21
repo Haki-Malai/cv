@@ -82,10 +82,10 @@ content:
         quote: >
           Internal registration required for full access.
         description: |
-          An application designed to match ticket information with relevant events by extracting key details such as event name, date, and location from a ticket.
-          It processes this data by filtering significant keywords and querying events from the Skybox API.
-          The front end interface allows users to input ticket information, while the back-end handles event filtering and classification based on keyword relevance and time compatibility.
-          The application is deployed on AWS using ECS for scalable hosting and S3 for storage, ensuring reliability and efficiency in ticket-to-event matching.
+          Developed for Hakra and since discontinued, TicketParser matched ticket information with relevant events by extracting key details such as event name, date, and location from a ticket.
+          It processed this data by filtering significant keywords and querying events from the Skybox API.
+          The front end interface allowed users to input ticket information, while the back-end handled event filtering and classification based on keyword relevance and time compatibility.
+          The application was deployed on AWS using ECS for scalable hosting and S3 for storage, ensuring reliability and efficiency in ticket-to-event matching.
 
       - layout: left
         border: weak
