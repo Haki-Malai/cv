@@ -50,6 +50,19 @@ content:
     content:
       - layout: left
         border: weak
+        title: PACKETLOSS
+        link: https://packetloss.hakimalai.com
+        link_text: '<i class="fas fa-gamepad" aria-hidden="true"></i> Play in browser'
+        quote: >
+          A network-themed browser maze arcade game that grew out of my earlier Pac-Man project.
+        description: |
+          PACKETLOSS is built with TypeScript, Three.js, Vite, and React, with desktop and mobile controls.
+          Players recover data bits, evade enemies, and use power cores, portals, and weapons to navigate the maze.
+          It features solo play and private Battle Royale rooms backed by an authoritative Node.js WebSocket server, with accounts, synchronized profiles, and saved scores.
+          The AWS infrastructure uses Lambda APIs and DynamoDB for backend services and persistence, with S3 and CloudFront serving the frontend.
+
+      - layout: left
+        border: weak
         title: secure-waypoint
         link: https://github.com/Haki-Malai/secure-waypoint
         link_text: GitHub Repository
@@ -78,27 +91,25 @@ content:
         border: weak
         title: Arctic Fox
         quote: >
-          A unified suite combining a Flask-based CMS with a ReactJS user interface, designed for efficient file and folder management with role-based authorization.
+          A Flask and React CMS for file and folder management.
         description: |
-          Arctic Fox builds on my thesis work and merges the Arctic Fox CMS and its UI into a cohesive platform.
-          The backend, built with Flask, supports OAuth2 authentication, OpenAPI documentation, task management, and caching for scalability.
-          The frontend, implemented in ReactJS, offers robust state management and seamless communication with the API client.
-          AWS and Terraform support the deployment approach, providing a maintainable, scalable solution for modern web application development.
+          Built on my thesis work, Arctic Fox combines a Flask API and React interface with role-based authorization, OAuth2 authentication, and OpenAPI documentation.
+          AWS and Terraform support deployment.
 
-            - layout: left
-              border: weak
-              title: digital-odyssey
-              additional_links:
-                - title:  Github page for project
-                  icon: fab fa-github
-                  url: https://github.com/Haki-Malai/digital-odyssey
-              quote: >
-                A Flask-Powered Ecommerce Application
-              description: |
-                Digital Odyssey is a versatile ecommerce web application built with the Python Flask framework, featuring a full range of functionalities for both user and administrative tasks.
-                This application not only supports product browsing and order processing but also includes a custom CMS for backend management accessible via an /admin page.
-                It incorporates Elasticsearch to enhance search capabilities, along with a responsive design for a seamless user experience across devices.
-                The README in the repository provides detailed setup and usage instructions, showcasing its readiness for both development and deployment.
+      - layout: left
+        border: weak
+        title: digital-odyssey
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Haki-Malai/digital-odyssey
+        quote: >
+          A Flask-Powered Ecommerce Application
+        description: |
+          Digital Odyssey is a versatile ecommerce web application built with the Python Flask framework, featuring a full range of functionalities for both user and administrative tasks.
+          This application not only supports product browsing and order processing but also includes a custom CMS for backend management accessible via an /admin page.
+          It incorporates Elasticsearch to enhance search capabilities, along with a responsive design for a seamless user experience across devices.
+          The README in the repository provides detailed setup and usage instructions, showcasing its readiness for both development and deployment.
 
       - layout: left
         border: weak
@@ -144,22 +155,6 @@ content:
           Utilizing the ESC-50 dataset, the project involves preprocessing audio into mel spectrograms and training a neural network with these data.
           The app features a trained model that analyzes sounds from the microphone to determine if a baby is crying, displaying results visually through color-coded indicators and a mel spectrogram of the audio.
           The process includes data categorization, spectrogram generation, and network training, culminating in a practical tool for baby cry detection.
-
-  - title: Games
-    layout: list
-    content:
-      - layout: left
-        border: weak
-        title: PACKETLOSS
-        link: https://packetloss.hakimalai.com
-        link_text: Play PACKETLOSS
-        quote: >
-          A network-themed maze arcade game that grew out of my earlier Pac-Man project.
-        description: |
-          PACKETLOSS is built with TypeScript, Three.js, Vite, and React, with desktop and mobile controls.
-          Players recover data bits, evade enemies, and use power cores, portals, and weapons to navigate the maze.
-          It features solo play and private Battle Royale rooms backed by an authoritative Node.js WebSocket server, with accounts, synchronized profiles, and saved scores.
-          The AWS infrastructure uses Lambda APIs and DynamoDB for backend services and persistence, with S3 and CloudFront serving the frontend.
 
       - layout: left
         border: weak
